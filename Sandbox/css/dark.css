@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+.dark{
+    background-color: #000000;
+    #startofthepage{
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.482), 
+            rgba(0, 0, 0, 0.479)
+          ),
+        url(/Sandbox/photos/bg-colorfull.png) !important;
+
+        #read{
+            color: white !important;
+            background-color: #000000 !important;
+        }
+    }
+    .icon-cards{
+        .col1, .col2, .col3, .col4{
+            background-color: #000000 !important;
+        }
+        .card-start{
+            color: white !important;
+        }
+        p{
+            color: #AAB0BC !important;
+        }
+    }
+    .tabs{
+        .icon_lan:nth-child(1){
+            color: white !important;
+        }
+        .icon_lan{
+            color: #AAB0BC !important;
+        }
+        .nav-item .inside-tab{
+            background-color: #000000da !important;
+        }
+        .icon_lan:nth-child(4){
+            color: white !important;
+        }
+    }
+    .save-up{
+        background-color: #1a1a1a !important;
+        .savings:nth-child(2){
+            color: #ffffff !important;
+        }
+        #prog{
+            .progress{
+                background-color: #1a1a1a !important;
+                span{
+                    color: #ffffff;
+                }
+                b{
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+    .save{
+        .container{
+            .row{
+                background-color: #000000;
+                p{
+                    color: #ffffff !important;
+                }
+            }
+        }
+    }
+    .projects{
+        .projects-all:nth-child(2){
+            color: white !important;
+        }
+        .cart-text{
+            p{
+                color: #AAB0BC !important;
+            }
+        }
+    }
+    #different{
+        .head{
+            color: white;
+        }
+        .def{
+            color: #bbbcc1;
+        }
+        .diff:nth-child(2){
+            color: white !important;
+        }
+    }
+    footer{
+        #footer-widget{
+            p{
+                color: black;
+            }
+            button{
+                color: white;
+                background-color: black;
+            }
+        }
+        .head{
+            color: #ffffff;
+        }
+        .def{
+            color: #bbbcc1;
+        }
+        .learn{
+            div>a{
+                color: #bbbcc1;
+            }
+        }
+        .white-black{
+            .wl{
+                display: block !important;
+            }
+            .bl{
+                display: none !important;
+            }
+        }
+    }
+} 

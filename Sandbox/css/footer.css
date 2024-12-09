@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer{
+
+    #footer-widget{
+        padding: 70px;
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.3), 
+            rgba(0, 0, 0, 0.3)
+          ),
+        url(/Sandbox/photos/bg-colorfull.png);
+        background-position: 30%;
+        background-size: cover;
+        border-radius: 10px;
+
+        p{
+            color: white;
+            font-weight: 600;
+        }
+        #trust{
+            font-size: 42px;
+            padding: 0 40px 0 40px;
+            margin-bottom: 40px;
+        }
+
+        button{
+
+            padding: 10px 24px;
+            background-color: white;
+            color: #262B32;
+            border-radius: 10px;
+            border: none;
+            font-size: 17px;
+            font-weight: 500;
+        }
+        button:hover{
+            position: relative;
+            top: -3px;
+        }
+    }
+
+    .container{
+
+        .row{
+
+            .col{
+                .white-black{
+                    .wl{
+                        display: none;
+                    }
+                    .bl{
+                        display: block;
+                    }
+                }
+                #get{
+                    margin-bottom: 20px;
+                }
+                .learn{
+
+                    div{
+                        margin-top: 7px;
+                    }
+                }
+            }
+
+            .email{
+
+                form{
+
+                    padding: 0;
+                    input{
+                        height: 52px !important;
+                        font-size: 16px;
+                        padding: 6x 12px;
+                        color: #60697B;
+                    }
+
+                    span{
+
+                        padding: 10px 24px;
+                        color: white;
+                        background-color: #A07CC5;
+                        font-size: 14px;
+                        font-weight: 500;
+                    }
+                }         
+            }
+        }
+    }
+    i{
+        width: 20px;
+        height: 20px;
+        margin-left: 7px;;
+    }
+    i:hover{
+        position: relative;
+        top: -3px;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .email{
+        margin-top: 30px !important;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    #footer-widget{
+        padding: 50px;
+
+    }
+
+}

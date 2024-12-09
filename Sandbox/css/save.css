@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.save{
+    position: relative;
+    top: -180px;
+    .container{
+
+        .row{
+            background-color: white;
+            .col-12{
+                .img{
+                    img{
+                        overflow: hidden;
+                        background-color: #e9ecef;
+                        height: 100%;
+                        width: 100%;
+                        border-bottom-left-radius: 10px;
+                        border-top-left-radius: 10px;
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+.save-up{
+    background-color: #e9ecef;
+
+    #money{
+        padding: 140px 15px 200px 15px !important;
+        
+        .row{
+
+            .col{
+
+                .progress{
+                    display: flex;
+                    flex-direction: column;
+                    padding: 0 15px;
+                    margin-top: 30px;
+                    position: relative;
+                    text-align: center;
+                    height: 170px;
+                    margin-left: 20px;
+                  }
+
+                  .barOverflow{ /* Wraps the rotating .bar */
+                    position: relative;
+                    justify-self: center;
+                    left: 35%;
+                    right: -40%;
+                    overflow: hidden; /* Comment this line to understand the trick */
+                    width: 170px; height: 85px; /* Half circle (overflow) */
+                  }
+                  .bar{
+                    justify-self: center;
+                    position: absolute;
+                    top: 0; left: 0;
+                    width: 170px; height: 170px; /* full circle! */
+                    border-radius: 50%;
+                    box-sizing: border-box;
+
+                  }
+
+                  #pink{
+                    border: 13px solid pink;
+                    border-bottom-color: palevioletred;  /* half azure */
+                    border-right-color: palevioletred;
+                  }
+
+                  #orange{
+                    border: 13px solid lightsalmon;
+                    border-bottom-color: coral;  /* half azure */
+                    border-right-color: coral;
+                  }
+            }
+            #prog{
+                padding: 0 35px;
+                margin-top: 40px;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+
+
+
+
+@media only screen and (max-width:992px) {
+    .save{
+
+        .container{
+    
+            .row{
+    
+                .col-12{
+    
+                    
+                    .img{
+                        overflow: hidden;
+    
+                        img{
+                            height: 100%;
+                            width: 100%;
+                            border-top-right-radius: 10px;
+                            border-top-left-radius: 10px;
+                            border-bottom-left-radius: 0%;
+                        }
+                    }
+                    
+                    .container{
+
+                        padding: 50px;
+                    }
+                }
+            }
+        }
+    } 
+    .save-up{
+        #money{
+            .row{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                .barOverflow{
+                    left: 35% !important;
+                }
+            }
+        }
+    }
+
+}

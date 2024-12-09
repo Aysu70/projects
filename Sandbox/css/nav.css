@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#startofthepage{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.3), 
+        rgba(0, 0, 0, 0.3)
+      ),
+    url(/Sandbox/photos/bg-colorfull.png);;
+    background-position: 30%;
+    background-size: cover;
+    background-attachment: fixed;
+    clip-path: ellipse(140% 100% at 50% 0%);
+    .navbar{
+        height: 92px;
+        font-size: 17px;
+        font-weight: 600;
+        background-color: transparent !important;
+        .container{
+    
+            button{
+
+                border: none;
+                span{
+                    color: white;
+                }
+            }
+        }
+    }
+    #words{
+        padding: 160px 15px 160px;
+
+        p{  
+            overflow-wrap: break-word;
+            text-wrap:balance !important;
+        }
+        #read{
+            background-color: white;
+            margin-bottom: 25px;
+            padding: 10px 24px;
+            border-radius: 7px;
+            color: #262b32;
+            font-size: 17px;
+            font-weight: 600;
+            border: none;
+        }
+    }
+    .nav-dark-light{
+        margin-top: 7px;
+        margin-left: 6px;
+    }
+    #loginnav{
+        background-color: none !important;
+        border-radius: 6px;
+        border: 1px solid white;
+        a{
+            background-color: none;
+            span{
+                color: black;
+            }
+        }
+    }
+
+}
+
+#words{
+    #read:hover{
+        cursor: pointer;
+        position: relative;
+        top: -2px;
+        transition: ease-in;
+    }
+}
